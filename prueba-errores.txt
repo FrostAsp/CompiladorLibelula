@@ -1,0 +1,633 @@
+0000 
+0001 RETURN;
+     Error 561: No se pueden definir comandos de LIBELULA antes de MODULE [RETURN;]
+0002 return;
+     Error 2036: No es un Comando Valido de LIBELULA ni de MODULE2 [return;]
+0003 
+0004 MODULE
+         ERROR 267: Falta Nombre del Proyecto
+0005 
+0006 MODULE CalcularInflacion;
+0007 MODULE 12CalcularInflacion;
+         ERROR 030: El Nombre del Proyecto no Puede Comenzar con Numeros 
+0008 MODULw %CalcularInflacion;
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [MODULw]
+0009 MODuLE CalcularInflacion;
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [MODuLE]
+0010 MODULE CalcularInflacion;
+         ERROR 260: Existe mas de una definicion de MODULE
+0011 
+0012 MODULE CalcularInflacion;
+         ERROR 260: Existe mas de una definicion de MODULE
+0013 MODULE CalcularInflacion;
+         ERROR 260: Existe mas de una definicion de MODULE
+0014 
+0015 
+0016 MODULE
+         ERROR 267: Falta Nombre del Proyecto
+0017 
+0018  FROM InOut IMPORT WriteInt, WriteString, WriteLn, Write, Read, ReadInt;
+     Advertencia Comando no soportado en esta version 
+0019  FROM RealInOut IMPORT WriteReal, ReadReal;
+     Advertencia Comando no soportado en esta version 
+0020 VAR
+0021 
+0022 
+0023 Var
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [Var]
+0024  
+0025 
+0026          VAR
+        ERROR 036: VAR no Puede Declararse mas de una vez
+0027 
+0028 
+0029 
+0030 6Maxima$Cantidad_de_Anos   =   integer    ;       codigo de mas
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [6Maxima$Cantidad_de_Anos]
+0031  MaxAnos : INTEGER; asdasdas
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0032  Ano  INTEGER; asfadsda
+        ERROR 450: No se reconoce el tipo de Dato en la definicion de Variable, falta [ ; ] o [ : ] [Ano  INTEGER]
+
+                ERROR 011: Antes del tipo de Variable debe Haber dos Puntos y debe Contener el tipo de dato
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0033  Respuesta : CHAR; asdasdasda
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0034 
+0035  Factor1,      Factor2,   Factor3 : REAL; jasjsjsj
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0036 
+0037   6Maxima$Cantidad_de_Anos   =   integer    ;       codigo de mas
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [6Maxima$Cantidad_de_Anos]
+0038   Maxima$Cantidad_de_Anos   =   integer    ;       codigo de mas  
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [Maxima$Cantidad_de_Anos]
+0039   MaximaCantidad_de_Anos   =   integer    ;       codigo de mas  
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [MaximaCantidad_de_Anos]
+0040   MaximaCantidadde_Anos   =   integer    ;       codigo de mas  
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [MaximaCantidadde_Anos]
+0041   MaximaCantidaddeAnos   =   integer    ;       codigo de mas    
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [MaximaCantidaddeAnos]
+0042   MaximaCantidaddeAnos   :   integer    ;       codigo de mas    
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [MaximaCantidaddeAnos]
+0043   MaximaCantidaddeAnos   :   INTEGER    ;       codigo de mas      
+        ERROR 451: Cada variable debe dividirse por coma[codigo de mas]
+
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0044   MaximaCantidaddeAnos   :   INTEGER           codigo de mas        
+        ERROR 450: No se reconoce el tipo de Dato en la definicion de Variable, falta [ ; ] o [ : ] [INTEGER           codigo de mas]
+
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0045   MaximaCantidaddeAnos   :   INTEGER    
+     ERROR 764: La Definicion de Variables debe finalizar con punto y coma 
+0046   MaxAnos   :   INTEGER      ;    
+0047 
+0048   Ano       : INTEGER;
+0049 
+0050    MC2 :   REAL   ;    MC3:   REAL;
+0051 
+0052 
+0053 
+0054 
+0055 RETURN;
+     Error 562: No se pueden definir comandos de LIBELULA antes de MODULE [RETURN;]
+0056 returN
+     Error 550: No es un Comando Valido de LIBELULA ni de MODULE2 [returN]
+0057 
+0058 BEGIN
+0059 (*
+0060  *****************************************************************
+0061  * Asumiendo tasas de inflacion anual de 7%, 8%, y 10%, *
+0062  * encontrar el factor por el cual cualquier moneda, tales como *
+0063  * el franco, el dolar, la libra esterlina, el marco, el rublo, *
+0064  * el yen o el florin han sido devaluadas en 1, 2, ...., N anos. *
+0065  *****************************************************************
+0066 *)
+0067  (* Inicio del programa *)
+0068  WriTEln;
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WriTEln;]
+0069 
+0070 
+0071 jason
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [jason]
+0072 
+0073 
+0074 RETRY
+     Advertencia comando no soportado en esta version
+0075 
+0076 
+0077 (* Inicializacion de variables *)
+0078 
+0079 	    Factor1     :=    1.0     ;  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor1]
+0080 		Factor2   :=     1.0   ;   
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+0081         Factor3 :=      1.0  ;  		
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor3]
+0082 
+0083       Factor11 :=    ( Factor1 *   1.07 );    
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor11]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor1]
+0084       Factor2% && AVS Factor2$      X   1,08     ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Factor2%]
+0085       Factor2 && AVS Factor2$      X   1,08     ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Factor2]
+0086  
+0087       Factor2 :& AVS Factor2$      X   1,08     ;   
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Factor2]
+0088 	  Factor2 := ABS ( ( Factor2     ) *   1.08     ;
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0089 	  Factor2 := ABS ( ( Factor2     ) *   1.08   )	  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0090       Factor2 := ABS ( ( Factor2     ) *   1.08   )  ;    
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0091 
+0092       Factor2 := SQRT ( ABS ( ( Factor2     ) *   1.08   )  ) ;    
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [SQRT]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0093 
+0094       Factor2 := SIZE ( ABS ( ( Factor2     ) *   1.08   )  ) ;	  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0095 	  
+0096     Factor3:=Factor33*(1.10); 	  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor3]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor33]
+0097 	Respuesta :=    Factor1   ;
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Respuesta]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor1]
+0098 
+0099 
+00100 
+0101 
+0102 
+0103 
+0104 
+0105 
+0106 REPEAT
+0107 
+0108 MC2 := (MC2) * 1.12;
+0109 
+0110  UNTIL jason > = MaxAnos;
+        ERROR 553: Una de las variables no se reconoce como una variable declarada[UNTILjason>=MaxAnos;]
+        ERROR 241: operadores comparativos con espacios [> =]
+0111 
+0112 UNTIL Ano > MaxAnos;
+        ERROR 551: Existe mas de una declaracion de Until[UNTILAno>MaxAnos;]
+0113 UNTIL Ano > MaxAnos;
+        ERROR 551: Existe mas de una declaracion de Until[UNTILAno>MaxAnos;]
+0114 
+0115 
+0116 
+0117 
+0118 WriteLn
+     Error 100: El Comando WriteLn debe Finalizar con punto y coma 
+0119 
+0120 
+0121 
+0122     IF ( ABS <=123)  THEN
+        ERROR 452: Dentro del comando IF, se requiere de al menos un definicion valida de un comando de MODULE2 o LIBELULA
+0123 ELSE
+        ERROR 453: Dentro del comando ELSE, se requiere de al menos un definicion valida de un comando de MODULE2 o variable definida
+0124 
+        ERROR 453: Dentro del comando ELSE, se requiere de al menos un definicion valida de un comando de MODULE2 o variable definida
+0125 jason
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [jason]
+        ERROR 453: Dentro del comando ELSE, se requiere de al menos un definicion valida de un comando de MODULE2 o variable definida
+0126 END;
+0127    
+0128 
+0129 
+0130 
+0131 
+0132 Write  (  );
+        ERROR 2013: Comando con Variable en Blanco[]
+0133 
+0134 WriteInt ( jason, 21);
+        ERROR 2016: Variable no definida o no corresponde al Tipo de dato INTEGER[jason]
+        ERROR 2018: El tamaño de la variable debe deber de 0 a 20[21]
+0135 
+0136 
+0137 WriteInt (  );
+        ERROR 2014: No se cumple con el Formato necesario del Comando[]
+0138 
+0139 WriteReal ( );
+        ERROR 2019: No se cumple con el Formato necesario del Comando[]
+0140 
+0141 WriteReal  jason, 11);
+        ERROR 208: Falta parentesis de apertura
+0142 
+0143 WriteString ( 'jasonfsdfffffffffffffffffdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd  '  );
+        ERROR 001: Error de Extension, Maximo 100 Caracteres por Linea
+        ERROR 2032: Tamaño exedido para una impresion de cadena, 60 caracteres maximo  ['jasonfsdfffffffffffffffffdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd']
+0144 
+0145 
+0146 
+0147 
+0148 
+0149 
+0150 
+0151 
+0152 
+0153 
+0154 
+0155 
+0156 
+0157 
+0158   Respuesta2   :      CHAR   ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Respuesta2]
+0159 
+0160   WRITELN  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WRITELN]
+0161    WRITELN ;  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WRITELN]
+0162     WriteLN  ;  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WriteLN]
+        ERROR 208: Falta parentesis de apertura
+0163      WriteLnn  ;  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WriteLnn]
+     Error 101: No se pueden escribir mas comandos en la misma linea que WriteLn
+0164        WriteLn
+     Error 100: El Comando WriteLn debe Finalizar con punto y coma 
+0165         WriteLn  ;  
+0166 
+0167     WriteSTRING       Por favor, indique la cantidad maxima de anos:      ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WriteSTRING]
+        ERROR 208: Falta parentesis de apertura
+0168     WriteString       Por favor, indique la cantidad maxima de anos:      ;    
+        ERROR 208: Falta parentesis de apertura
+0169     WriteString  (     Por favor, indique la cantidad maxima de anos:      ;    
+        ERROR 209: Falta parentesis de cierre
+0170     WriteString    ( "    Por favor, indique la cantidad maxima de anos:      ;    
+        ERROR 209: Falta parentesis de cierre
+0171     WriteString    ( 'Por favor, indique la cantidad maxima de anos:      ;    
+        ERROR 209: Falta parentesis de cierre
+0172     WriteString    ( 'Por favor, indique la cantidad maxima de anos:"      ;    
+        ERROR 209: Falta parentesis de cierre
+0173     WriteString    ( 'Por favor, indique la cantidad maxima de anos:'      ;    
+        ERROR 209: Falta parentesis de cierre
+0174     WriteString    ( 'Por favor, indique la cantidad maxima de anos:' )     
+        ERROR 2010: El comando debe finalizar en punto y coma
+0175 
+0176     WriteString    ( 'Por favor, indique la cantidad maxima de anos:'   )   ;    
+0177 	
+0178 	
+0179     ReadIntz    777MaxAnos$esmugrande&   
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadIntz]
+        ERROR 207: Faltan parentesis 
+0180     ReadIntz    777MaxAnos$esmugrande&  ;   
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadIntz]
+        ERROR 207: Faltan parentesis 
+0181     ReadINT     777MaxAnos$esmugrande& ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadINT]
+        ERROR 207: Faltan parentesis 
+0182     ReadInt     777MaxAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0183     ReadInt  )  777MaxAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0184     ReadInt  [  777MaxAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0185     ReadInt  (  777MaxAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0186     ReadInt  (  MaxAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0187     ReadInt  (  MaxAnosesmugrande&;    
+        ERROR 207: Faltan parentesis 
+0188     ReadInt  (  MaxAnosesmugrande;    
+        ERROR 207: Faltan parentesis 
+0189     ReadInt  (  MaxAnos ( ;      
+        ERROR 207: Faltan parentesis 
+0190     ReadInt  (  Respuesta );     
+        ERROR 202: Variable no definida o no corresponde al Tipo de dato INTEGER[Respuesta]
+0191     ReadInt  (  MaxAnos )     
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0192     ReadInt  (  MaxAnos )     ; 
+0193 	
+0194 	
+0195 	
+0196     ReadRealz 777AnoAnos$esmugrande& 
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadRealz]
+        ERROR 207: Faltan parentesis 
+0197     ReadRealz 777AnoAnos$esmugrande&; 
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadRealz]
+        ERROR 207: Faltan parentesis 
+0198     ReadREAL  777AnoAnos$esmugrande&;  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadREAL]
+        ERROR 207: Faltan parentesis 
+0199     ReadReal  777AnoAnos$esmugrande&;  
+        ERROR 207: Faltan parentesis 
+01100     ReadReal  [ 777AnoAnos$esmugrande&;   
+        ERROR 207: Faltan parentesis 
+0201     ReadReal  (  777AnoAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0202     ReadReal  (  AnoAnos777$esmugrande&;   
+        ERROR 207: Faltan parentesis 
+0203     ReadReal  (  AnoAnos$esmugrande&;    
+        ERROR 207: Faltan parentesis 
+0204     ReadReal  (  AnoAnosesmugrande&;    
+        ERROR 207: Faltan parentesis 
+0205     ReadReal  (  AnoAnosesmugrande ;     
+        ERROR 207: Faltan parentesis 
+0206     ReadReal  (  AnoAnosesmugrande (;     
+        ERROR 207: Faltan parentesis 
+0207     ReadReal  (  AnoAnosesmugrande )    
+        ERROR 204: Variable no definida o no corresponde al Tipo de dato REAL[AnoAnosesmugrande]
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0208     ReadReal  (  AnoAnosesmugrande )    ;
+        ERROR 204: Variable no definida o no corresponde al Tipo de dato REAL[AnoAnosesmugrande]
+0209     ReadReal  (  Respuesta );    
+        ERROR 204: Variable no definida o no corresponde al Tipo de dato REAL[Respuesta]
+0210     ReadReal  (  Factor1 )    
+        ERROR 204: Variable no definida o no corresponde al Tipo de dato REAL[Factor1]
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0211     ReadReal  (  Factor1 )    ;
+        ERROR 204: Variable no definida o no corresponde al Tipo de dato REAL[Factor1]
+0212 
+0213     (* Inicializacion de variables *)
+0214 
+0215 	    Factor1     :=    1.0     ;  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor1]
+0216 		Factor2   :=     1.0   ;   
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+0217         Factor3 :=      1.0  ;  		
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor3]
+0218 
+0219       Factor11 :=    ( Factor1 *   1.07 );    
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor11]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor1]
+0220       Factor2% && AVS Factor2$      X   1,08     ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Factor2%]
+0221       Factor2 && AVS Factor2$      X   1,08     ;    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Factor2]
+0222  
+0223       Factor2 :& AVS Factor2$      X   1,08     ;   
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Factor2]
+0224 	  Factor2 := ABS ( ( Factor2     ) *   1.08     ;
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0225 	  Factor2 := ABS ( ( Factor2     ) *   1.08   )	  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0226       Factor2 := ABS ( ( Factor2     ) *   1.08   )  ;    
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0227 
+0228       Factor2 := SQRT ( ABS ( ( Factor2     ) *   1.08   )  ) ;    
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [SQRT]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0229 
+0230       Factor2 := SIZE ( ABS ( ( Factor2     ) *   1.08   )  ) ;	  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor2]
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+     Advertencia Comando no soportado en esta version 
+0231 	  
+0232     Factor3:=Factor33*(1.10); 	  
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor3]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor33]
+0233 	Respuesta :=    Factor1   ;
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Respuesta]
+     Error 433: No se reconoce como una variable declarada, ni un comando de MODULE2 ni LIBELULA [Factor1]
+0234 	
+0235       WriteInt      Ano$      X     
+        ERROR 208: Falta parentesis de apertura
+        ERROR 2010: El comando debe finalizar en punto y coma
+0236       WriteInt      Ano$      X  ;   
+        ERROR 208: Falta parentesis de apertura
+0237       WriteInt   )  Ano$      X  ;   
+        ERROR 208: Falta parentesis de apertura
+0238       WriteInt   (   Ano$      X  ;   
+        ERROR 209: Falta parentesis de cierre
+0239       WriteInt   (   Ano      X  ;   
+        ERROR 209: Falta parentesis de cierre
+0240       WriteInt   (   Ano   ,,   X  ;   
+        ERROR 209: Falta parentesis de cierre
+0241       WriteInt   (   Ano   ,   X  ;   
+        ERROR 209: Falta parentesis de cierre
+0242       WriteInt   (   Ano   ,   -1  ;   
+        ERROR 209: Falta parentesis de cierre
+0243       WriteInt   (   Ano   ,   66  ;   
+        ERROR 209: Falta parentesis de cierre
+0244       WriteInt   (   Ano   ,   -1  );   
+        ERROR 2018: El tamaño de la variable debe deber de 0 a 20[-1]
+0245       WriteInt   (   Ano   ,   66  );   
+        ERROR 2018: El tamaño de la variable debe deber de 0 a 20[66]
+0246       WriteInt   (   Ano   ,   3 ) 
+        ERROR 2010: El comando debe finalizar en punto y coma
+0247       WriteInt   (   Ano   ,   3, ) 
+        ERROR 2010: El comando debe finalizar en punto y coma
+        ERROR 2017: El tamaño solo puede ser una variable numerica[3,]
+0248       WriteInt   (   Ano   ,   3     
+        ERROR 209: Falta parentesis de cierre
+        ERROR 2010: El comando debe finalizar en punto y coma
+0249       WriteInt   (   Ano   ,   3  );
+0250 
+0251 
+0252       WriteReal      Ano$      X     
+        ERROR 208: Falta parentesis de apertura
+        ERROR 2010: El comando debe finalizar en punto y coma
+0253       WriteReal      Ano$      X  ;   
+        ERROR 208: Falta parentesis de apertura
+0254       WriteReal   )  Ano$      X  ;   
+        ERROR 208: Falta parentesis de apertura
+0255       WriteReal   (   Ano$      X  ;   
+        ERROR 209: Falta parentesis de cierre
+0256       WriteReal   (   Ano      X  ;   
+        ERROR 209: Falta parentesis de cierre
+0257       WriteReal   (   Ano   ,,   X  ;   
+        ERROR 209: Falta parentesis de cierre
+0258       WriteReal   (   Ano   ,   X  ;   
+        ERROR 209: Falta parentesis de cierre
+0259       WriteReal   (   Ano   ,   -1  ;   
+        ERROR 209: Falta parentesis de cierre
+0260       WriteReal   (   Ano   ,   66  ;   
+        ERROR 209: Falta parentesis de cierre
+0261       WriteReal   (   Ano   ,   -1  );   
+        ERROR 2021: Variable no definida o no corresponde al Tipo de dato INTEGER[Ano]
+        ERROR 2024: El tamaño de la variable debe deber de 0 a 20[-1]
+0262       WriteReal   (   Ano   ,   66  );   
+        ERROR 2021: Variable no definida o no corresponde al Tipo de dato INTEGER[Ano]
+        ERROR 2024: El tamaño de la variable debe deber de 0 a 20[66]
+0263       WriteReal   (   Ano   ,   3 ) 
+        ERROR 2010: El comando debe finalizar en punto y coma
+        ERROR 2021: Variable no definida o no corresponde al Tipo de dato INTEGER[Ano]
+0264       WriteReal   (   Ano   ,   3, ) 
+        ERROR 2010: El comando debe finalizar en punto y coma
+        ERROR 2021: Variable no definida o no corresponde al Tipo de dato INTEGER[Ano]
+        ERROR 2023: El tamaño solo puede ser una variable numerica[3,]
+0265       WriteReal   (   Ano   ,   3     
+        ERROR 209: Falta parentesis de cierre
+        ERROR 2010: El comando debe finalizar en punto y coma
+0266       WriteReal   (   Factor1   ,   3  );	
+        ERROR 2021: Variable no definida o no corresponde al Tipo de dato INTEGER[Factor1]
+0267 	
+0268     WriteString   (    'Otra vez?'    );   
+0269 
+0270 
+0271     Readd   1Respuesta$tienemas20
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Readd]
+        ERROR 207: Faltan parentesis 
+0272     Readd   1Respuesta$tienemas20  ; 
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Readd]
+        ERROR 207: Faltan parentesis 
+0273     REad    1Respuesta$tienemas20  ;   
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [REad]
+0274     Read    1Respuesta$tienemas20  ;  
+        ERROR 207: Faltan parentesis 
+0275     Read (  1Respuesta$tienemas20  ;  
+        ERROR 207: Faltan parentesis 
+0276     Read (  Respuesta$tienemas_20  ;  
+        ERROR 207: Faltan parentesis 
+0277     Read (  Respuestatienemasque20  ;  
+        ERROR 207: Faltan parentesis 
+0278     Read (  Respuesta  ;  
+        ERROR 207: Faltan parentesis 
+0279     Read (  Respuesta ] ;  
+        ERROR 207: Faltan parentesis 
+0280     Read (  Respuesta ( ;  
+        ERROR 207: Faltan parentesis 
+0281     Read (  Respuesta666 ) ;
+        ERROR 200: Variable no definida o no corresponde al Tipo de dato CHAR[Respuesta666]
+0282     Read (  Respuesta ) 
+        ERROR 200: Variable no definida o no corresponde al Tipo de dato CHAR[Respuesta]
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0283     Read (  Ano ) ;
+        ERROR 200: Variable no definida o no corresponde al Tipo de dato CHAR[Ano]
+0284     Read (  Respuesta ) ;
+        ERROR 200: Variable no definida o no corresponde al Tipo de dato CHAR[Respuesta]
+0285 
+0286     WriteString ( 'Esta es su respuesta:' );
+0287 
+0288     WRITE Respuesta/masde20carac%  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WRITE]
+0289     WRITE Respuesta/masde20carac%  ;  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [WRITE]
+0290     Write Respuesta/masde20carac%  ;   
+        ERROR 208: Falta parentesis de apertura
+0291     Write ) Respuesta/masde20carac%  ;   
+        ERROR 208: Falta parentesis de apertura
+0292     Write [ Respuesta/masde20carac%  ;   
+        ERROR 208: Falta parentesis de apertura
+0293     Write  (  Respuesta/masde20carac%  ;   
+        ERROR 209: Falta parentesis de cierre
+0294     Write  (  Respuesta/masde20ca%  ;   
+        ERROR 209: Falta parentesis de cierre
+0295     Write  (  Respuestamasde20ca%  ;   
+        ERROR 209: Falta parentesis de cierre
+0296     Write  (  Respuesta ]  ;   
+        ERROR 209: Falta parentesis de cierre
+0297     Write  (  Respuesta (  ;   
+        ERROR 209: Falta parentesis de cierre
+0298     Write  (  Respuestanoexiste )    
+        ERROR 2010: El comando debe finalizar en punto y coma
+        ERROR 2011: Variable no definida o no corresponde al Tipo de dato CHAR[Respuestanoexiste]
+0299     Write  (  Respuestanoexiste )    ;
+        ERROR 2011: Variable no definida o no corresponde al Tipo de dato CHAR[Respuestanoexiste]
+02100     Write  (  Ano )    ;
+        ERROR 2011: Variable no definida o no corresponde al Tipo de dato CHAR[Ano]
+0301     Write  (  Respuesta )    ;	
+        ERROR 2011: Variable no definida o no corresponde al Tipo de dato CHAR[Respuesta]
+0302 	
+0303     return    
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [return]
+0304     return  ;  
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [return]
+0305     RETURN    
+    ERROR 560: El comando RETURN debe finalizar con punto y coma
+0306     RETURN  ;  
+0307 
+0308 
+0309 
+0310 
+0311 
+0312 
+0313 
+0314 
+0315 
+0316 
+0317 
+0318 
+0319 
+0320 			read (Factor3  );
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [read]
+0321 
+0322 		Readint(Respuesta );
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [Readint(Respuesta]
+0323  
+0324 	 readReal (Ano  );
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [readReal]
+0325 
+0326 		ReadReaL ( MaxAnos  );
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [ReadReaL]
+0327 
+0328 Read ( Variable de tipo CHAR ); ok
+        ERROR 200: Variable no definida o no corresponde al Tipo de dato CHAR[VariabledetipoCHAR]
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0329 ReadInt ( Variable de tipo INTEGER ); ok
+        ERROR 202: Variable no definida o no corresponde al Tipo de dato INTEGER[VariabledetipoINTEGER]
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0330 ReadReal ( Variable de tipo REAL ); ok
+        ERROR 204: Variable no definida o no corresponde al Tipo de dato REAL[VariabledetipoREAL]
+        ERROR 206: Se debe finalizar la Linea con punto y coma 
+0331 
+0332 
+0333 RETURN;
+0334 return;
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [return;]
+0335 
+0336 
+0337 END CalcularInflacion;
+        ERROR 048: El comando END no requiere de punto y coma[ENDCalcularInflacion;]
+        ERROR 049: El comando END debe finalizar con .[ENDCalcularInflacion;]
+0338 
+0339 end CalcularInflacion.
+     Error 468: No es un Comando Valido de LIBELULA ni de MODULE2 [end]
+0340 
+0341 END CalcularInflacion.
+     ERROR 050: END fue Declarado mas de una vez
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+0342 
+0343 END.
+        ERROR 046: Falta nombre del proyecto
+
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+0344 
+0345 
+0346 END CalcularInflacion.
+     ERROR 050: END fue Declarado mas de una vez
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+0347 
+0348 END jason;
+        ERROR 046: El Nombre Asignado en END no Corresponde al Mismo Nombre del Proyecto Asignado en MODULE [jason] 
+
+        ERROR 048: El comando END no requiere de punto y coma[ENDjason;]
+        ERROR 049: El comando END debe finalizar con .[ENDjason;]
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+0349 
+0350 
+0351 
+0352 jason
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
+0353 
+0354 
+0355 
+0356 
+0357 WriteLn;
+        ERROR 075: Despues del Comando END solo pueden Agregarse Comentarios y Espacios en Blanco
